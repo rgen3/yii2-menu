@@ -5,7 +5,7 @@ use yii\db\Migration;
 
 class m170101_000000_create_menu_table extends Migration
 {
-	protected $table = 'menu';
+	protected $table = '{{%menu}}';
 	
     public function up(){
     
